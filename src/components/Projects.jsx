@@ -20,7 +20,7 @@ function Projects() {
             <div
               className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
               style={{
-                backgroundImage: "url('./src/assets/undoubt.png')",
+                backgroundImage: "url('./undoubt.png')",
                 lineHeight: 10,
                 padding: 20,
               }}
@@ -88,7 +88,7 @@ function Projects() {
             <div
               className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
               style={{
-                backgroundImage: "url('./src/assets/undoubt.png')",
+                backgroundImage: "url('./undoubt.png')",
                 lineHeight: 10,
                 padding: 20,
               }}

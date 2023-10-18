@@ -68,7 +68,7 @@ function About() {
         <div className="">
           <img
             className=" rounded-md "
-            src="./src/assets/r1.jpg"
+            src="./r1.jpg"
             alt="Rudratej"
           />
         </div>

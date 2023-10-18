@@ -18,52 +18,52 @@ function Skills() {
             
             <div className="flex justify-center flex-wrap pb-4 " data-aos="fade-left">
               <div className="flex flex-col w-32 text-lg mx-1 items-center ">
-                <img className="h-12" src="./src/assets/rjs.png" alt="" />
+                <img className="h-12" src="./rjs.png" alt="" />
                 <h2>React Js</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/html.png" alt="" />
+                <img className="h-12" src="./html.png" alt="" />
                 <h2>HTML 5</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/tw.png" alt="" />
+                <img className="h-12" src="./tw.png" alt="" />
                 <h2>Tailwind</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/css.png" alt="" />
+                <img className="h-12" src="./css.png" alt="" />
                 <h2>CSS 3</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/js.png" alt="" />
+                <img className="h-12" src="./js.png" alt="" />
                 <h2>JavaScript</h2>
               </div>
             </div>
             <div className="flex justify-center flex-wrap  " data-aos="fade-right">
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/java.png" alt="" />
+                <img className="h-12" src="./java.png" alt="" />
                 <h2>Java</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/fb.png" alt="" />
+                <img className="h-12" src="./fb.png" alt="" />
                 <h2>Firebase</h2>
               </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/aw.png" alt="" />
+                <img className="h-12" src="./aw.png" alt="" />
                 <h2>Appwrite</h2>
               </div>
               <div className="flex flex-col w-32 text-lg mx-1 items-center ">
-          <img className="h-12" src="./src/assets/sql.png" alt="" />
+          <img className="h-12" src="./sql.png" alt="" />
           <h2>SQL</h2>
         </div>
 
               <div className="flex flex-col w-32 text-lg mx-1 items-center">
-                <img className="h-12" src="./src/assets/fl.png" alt="" />
+                <img className="h-12" src="./fl.png" alt="" />
                 <h2>Flutter</h2>
               </div>
             </div>
