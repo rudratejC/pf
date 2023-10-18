@@ -25,7 +25,7 @@ function Footer() {
             </div>
 
             <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 ">
-              <div data-aos="fade-right" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
+              <a href="mailto:rudratejchilkewar@gmail.com" target="_blank" data-aos="fade-right" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 hover:shadow-2xl rounded-lg">
                 <span className="inline-block p-3 text-blue-500 rounded-full bg-white/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -47,11 +47,11 @@ function Footer() {
                   Email
                 </h2>
                 
-                <a href="mailto:rudratejchilkewar@gmail.com" target="_blank" className="mt-2 text-indigo-500 ">
+                <a href="mailto:rudratejchilkewar@gmail.com" target="_blank" className="mt-2 text-indigo-500 text-sm md:text-lg">
                 rudratejchilkewar@gmail.com
                 </a>
-              </div>
-              <div data-aos="fade-left" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
+              </a>
+              <a href="tel:917249266212" target="_blank"  data-aos="fade-left" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 hover:shadow-2xl rounded-lg">
                 <span className="inline-block p-3 text-blue-500 rounded-full bg-white/80 ">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -73,10 +73,10 @@ function Footer() {
                   Phone
                 </h2>
                 
-                <a href="tel:917249266212" target="_blank" className="mt-2 text-indigo-500 ">
+                <a href="tel:917249266212" target="_blank" className="mt-2 text-indigo-500 text-sm md:text-lg">
                 +91 7249266212
                 </a>
-              </div>
+              </a>
 
               
 

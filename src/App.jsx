@@ -8,7 +8,7 @@ import { Element } from "react-scroll";
 function App() {
   return (
     <>
-      <div className="flex items-center justify-center scroll-smooth">
+      <div className="flex items-center justify-center scroll-smooth ">
         <div className="px-4 md:px-12 w-screen  md:w-4/6  mb-10">
           <Nav></Nav>
         </div>
@@ -26,7 +26,7 @@ function App() {
       <Element name="skills" className="element">
         <Skills />
       </Element>
-      <Footer/>
+      <Footer />
     </>
   );
 }

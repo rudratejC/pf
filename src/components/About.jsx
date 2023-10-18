@@ -10,7 +10,7 @@ function About() {
   }, [])
   
   return (
-    <div className="flex pt-12  ">
+    <div className="flex flex-col-reverse md:flex-row pt-12  items-center">
       <div className="md:w-2/3  pr-4" data-aos="fade-right">
         <h1 className="text-4xl">
           Hello! I'm Rudratej, a developer based in India🇮🇳
@@ -72,6 +72,17 @@ function About() {
             alt="Rudratej"
           />
         </div>
+        
+      </div>
+      <div className="md:hidden md:w-1/3 " data-aos="fade-left">
+        <div className="pb-20">
+          <img
+            className=" rounded-full w-32  "
+            src="./r2.png"
+            alt="Rudratej"
+          />
+        </div>
+        
       </div>
       
     </div>
