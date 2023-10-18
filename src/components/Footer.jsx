@@ -1,6 +1,14 @@
 import React from "react";
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+
+
 function Footer() {
+  useEffect(() => {
+    Aos.init({duration:1000});
+  }, [])
   return (
     <div className="flex items-center justify-center mb- ">
       <div className="px-8 md:px-12 mt-20  md:w-4/6  ">
@@ -17,7 +25,7 @@ function Footer() {
             </div>
 
             <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 ">
-              <div className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
+              <div data-aos="fade-right" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
                 <span className="inline-block p-3 text-blue-500 rounded-full bg-white/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +51,7 @@ function Footer() {
                 rudratejchilkewar@gmail.com
                 </a>
               </div>
-              <div className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
+              <div data-aos="fade-left" className="bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-400  p-4 rounded-lg">
                 <span className="inline-block p-3 text-blue-500 rounded-full bg-white/80 ">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +84,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-center m-10 ">
+        <div  className="text-center m-10 " >
         Created with ❤️ by Rudratej Laxman Chilkewar 
         </div>
       </div>
